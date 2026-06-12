@@ -1,0 +1,11 @@
+Aurelia is an independent GPL-3.0 client-side Fabric mod.
+
+Architecture and module UX are inspired by the open-source Meteor Client:
+https://github.com/MeteorDevelopment/meteor-client
+
+No Meteor Client source code is included in this initial version. Do not claim
+otherwise. If Meteor-derived code is introduced later, preserve its copyright
+notices, identify the affected files, and comply with GPL-3.0.
+
+The bundled Rubik font is distributed under the SIL Open Font License 1.1.
+See assets/aurelia/font/RUBIK_LICENSE.txt.

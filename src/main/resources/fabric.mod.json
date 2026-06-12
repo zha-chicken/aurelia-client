@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "aurelia",
+	"version": "${version}",
+	"name": "Aurelia",
+	"description": "An elegant visual + combat utility client for Fabric (Minecraft 1.21.1).",
+	"authors": [
+		"Aurelia contributors"
+	],
+	"license": "GPL-3.0-only",
+	"icon": "assets/aurelia/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"dev.aurelia.client.AureliaClient"
+		]
+	},
+	"mixins": [
+		{
+			"config": "aurelia.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

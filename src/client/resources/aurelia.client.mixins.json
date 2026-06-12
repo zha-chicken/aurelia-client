@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "dev.aurelia.client.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "ClientLevelMixin",
+    "VelocityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
